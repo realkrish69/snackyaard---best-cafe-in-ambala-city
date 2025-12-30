@@ -1,0 +1,7 @@
+{
+  "name": "Snackyaard - Best Cafe in Ambala City",
+  "description": "A premium, aesthetic restaurant website for Snackyaard, featuring a dark luxury theme, exquisite menu highlights, and mobile-optimized QR menu access.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
