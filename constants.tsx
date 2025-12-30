@@ -28,7 +28,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Crunchy, golden-fried vegetable momos with a signature crisp texture.', 
     price: 140, 
     category: 'Momos', 
-    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c170db06?auto=format&fit=crop&w=600&q=80' 
+    image: 'src/assets/images/kurkure_momos.jpg' 
   },
   { 
     id: '3', 
@@ -52,7 +52,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Toasted baguette topped with rich molten cheese and aromatic garlic butter.', 
     price: 110, 
     category: 'Snacks', 
-    image: 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=600&q=80' 
+    image: 'src/assets/images/cheesy_garlic_bread.jpg' 
   },
   { 
     id: '6', 
