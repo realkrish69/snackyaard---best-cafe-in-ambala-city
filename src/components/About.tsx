@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { ChiliIcon } from "../../constants";
 import aboutImage from "../assets/images/about-cafe.jpg";
-
 const About: React.FC = () => {
   return (
     <section

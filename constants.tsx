@@ -52,7 +52,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Toasted baguette topped with rich molten cheese and aromatic garlic butter.', 
     price: 110, 
     category: 'Snacks', 
-    image: 'src/assets/images/cheesy_garlic_bread.jpg' 
+    image: 'src/assets/images/chessy.jpg' 
   },
   { 
     id: '6', 
