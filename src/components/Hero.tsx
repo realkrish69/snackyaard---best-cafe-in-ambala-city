@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { RESTAURANT_DETAILS } from '../../constants';
@@ -6,12 +5,15 @@ import { ChevronRight, MapPin } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section id="home" className="relative h-screen w-full overflow-hidden flex items-center justify-center">
+    <section
+      id="home"
+      className="relative h-screen w-full overflow-hidden flex items-center justify-center"
+    >
       {/* Background Image with Parallax-like effect overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="src/assets/images/Home (1).jpg" 
-          alt="Snackyaard Atmosphere" 
+        <img
+          src="/images/home.jpg"
+          alt="Snackyaard Atmosphere"
           className="w-full h-full object-cover opacity-25 scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-transparent to-[#050d0a]"></div>
@@ -19,7 +21,9 @@ const Hero: React.FC = () => {
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto space-y-8">
         <div className="space-y-2 animate-fade-in-up">
-          <p className="text-gold tracking-[0.3em] uppercase text-sm md:text-base font-semibold">"One Table, A Whole Journey"</p>
+          <p className="text-gold tracking-[0.3em] uppercase text-sm md:text-base font-semibold">
+            "One Table, A Whole Journey"
+          </p>
           <h1 className="text-5xl md:text-8xl font-serif font-bold italic drop-shadow-2xl">
             {RESTAURANT_DETAILS.name}
           </h1>
@@ -29,16 +33,17 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 animate-fade-in-up delay-300 relative z-20">
-          <Link 
-            to="/menu" 
+          <Link
+            to="/menu"
             className="group relative px-10 py-4 bg-gold text-[#050d0a] font-bold rounded-sm overflow-hidden flex items-center gap-2 hover:bg-white active:scale-95 transition-all cursor-pointer shadow-lg"
           >
             <span>VIEW MENU</span>
             <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </Link>
-          <a 
-            href={RESTAURANT_DETAILS.mapsUrl} 
-            target="_blank" 
+
+          <a
+            href={RESTAURANT_DETAILS.mapsUrl}
+            target="_blank"
             rel="noopener noreferrer"
             className="px-10 py-4 border border-gold text-gold font-bold rounded-sm flex items-center gap-2 hover:bg-gold/10 active:scale-95 transition-all cursor-pointer shadow-lg"
           >

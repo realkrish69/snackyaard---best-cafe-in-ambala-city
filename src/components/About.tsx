@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ChiliIcon } from "../../constants";
-import aboutImage from "../assets/images/about-cafe.jpg";
+
 const About: React.FC = () => {
   return (
     <section
@@ -15,7 +15,7 @@ const About: React.FC = () => {
           <div className="lg:w-1/2 relative">
             <div className="relative z-10 w-full aspect-[4/5] rounded-[100px_100px_0_100px] overflow-hidden border-8 border-gold/10 shadow-2xl">
               <img
-                src={aboutImage}
+                src="/images/about-cafe.jpg"
                 alt="Snackyaard Cafe Interior"
                 className="w-full h-full object-cover"
               />
@@ -44,8 +44,8 @@ const About: React.FC = () => {
             <div className="space-y-6 text-gray-400 leading-relaxed text-lg">
               <p>
                 Our kitchen is driven by skilled hands and creative minds. Every dish is thoughtfully prepared, every ingredient carefully chosen, and every recipe perfected with time and patience. From freshly wrapped momos to slow-cooked sauces, nothing leaves our kitchen until it meets our highest standards.
-
-We believe great food is not just cooked it’s crafted, plated, and served with heart.
+                <br /><br />
+                We believe great food is not just cooked — it’s crafted, plated, and served with heart.
               </p>
             </div>
 
